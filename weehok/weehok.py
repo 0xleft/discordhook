@@ -47,8 +47,8 @@ class Embed:
 class DiscordHook:
     def __init__(self, url):
         self.url = url
-        self.content = ""
-        self.username = ""
+        self.content = "<empty>"
+        self.username = "<empty>"
         self.avatar_url = ""
         self.tts = False
         self.embeds = []
